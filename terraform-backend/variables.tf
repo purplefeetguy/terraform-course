@@ -5,7 +5,7 @@ variable "region" {
 
 variable "resource_group" {
   type    = string
-  default = "terraform-course-akstfs-rg"
+  default = "terraform-course-rg"
 }
 
 variable "storage_account_name" {
