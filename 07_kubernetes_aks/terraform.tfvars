@@ -1,6 +1,6 @@
-resource_group_name = "aks_terraform_rg"
-location            = "West Europe"
-cluster_name        = "terraform-aks"
-kubernetes_version  = "1.19.3"
+resource_group_name = "terraform_course_aks_rg"
+location            = "West US 2"
+cluster_name        = "terraform-course-aks"
+kubernetes_version  = "1.21.2"
 system_node_count   = 3
-node_resource_group = "aks_terraform_resources_rg"
+node_resource_group = "terraform_course_aks_resources_rg"
