@@ -1,5 +1,5 @@
-resource_group_name    = "kv_rbac_terraform_rg"
-location               = "westeurope"
-keyvault_name          = "demokv01095"
+resource_group_name    = "terraform_course_kv_rbac_rg"
+location               = "West US 2"
+keyvault_name          = "tfcoursekeyvltrbac"
 secret_name            = "DatabasePassword"
 secret_value           = "@Aa123456789!"
