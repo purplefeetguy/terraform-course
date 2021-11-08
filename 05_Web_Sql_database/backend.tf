@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-  //   resource_group_name  = "tf_state"
-  //   storage_account_name = "tfstate019"
-  //   container_name       = "tfstate"
-  //   key                  = "terraform.tfstate"
+    resource_group_name  = "terraform-course-akstfs-rg"
+    storage_account_name = "terraformcourse"
+    container_name       = "terraformcoursestorcontpfg"
+    key                  = "terraform-webApp-sqldb.tfstate"
   }
 }
