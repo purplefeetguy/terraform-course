@@ -1,4 +1,4 @@
-resource_group_name    = "storage_terraform_rg"
-location               = "West Europe"
-storage_account_name   = "storageacc017"
-storage_container_name = "my-files"
+resource_group_name    = "terraform_course_storacc_rg"
+location               = "West US 2"
+storage_account_name   = "tftcoursestorageacc"
+storage_container_name = "tft-course-container"
