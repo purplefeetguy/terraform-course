@@ -1,5 +1,5 @@
-resource_group_name    = "kv_terraform_rg"
-location               = "West Europe"
-keyvault_name          = "demokv01090"
+resource_group_name    = "terraform-course-kv-pwd-rg"
+location               = "West US 2"
+keyvault_name          = "terraformcoursekv"
 secret_name            = "DatabasePassword"
 secret_value           = "@Aa123456789!"
